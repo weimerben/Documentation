@@ -1,0 +1,22 @@
+Linking Stash and Jira
+
+Because both Jira and Stash are Atlassian Products they can be easily integrated with each other. In order to link them, access your stash instance and select the admin icon on the top menu bar (the gear icon). Once the admin panel opens, choose Application Links from the vertical menu on the left hand side. Enter the URL of the Jira instance and click Create new link.
+
+Once you have created this link, a window will appear to confirm that you have administrative access in both instances. Choose Continue and you will be automatically redirected to your Jira instance to create a reciprocal link. On Jira, log in using your Admin account and you will see the stash instance on your screen. A new Window will appear to notify you that the link has been created.
+
+Important Note: 
+
+	In order for the two instances to integrate properly Stash must have the following plugins installed:
+
+		Atlassian Navigation Links Plugin
+		Stash Dev Summary Plugin
+
+	Both of these plugins come by default on instances of Stash 2.10 and later, but may need to be installed on earlier versions.
+
+For more information see Atlassian Documentation at:
+
+	https://confluence.atlassian.com/display/STASH/Linking+Stash+with+JIRA
+
+Other Atlassian Products:
+
+	Other Atlassian Products can be linked using the same process, just enter the URL of the product you would like to connect to and the process will be nearly identical with any Atlassian Product.
